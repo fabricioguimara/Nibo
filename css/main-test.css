@@ -1,0 +1,111 @@
+* {
+   margin: 0;
+   padding: 0;
+   box-sizing: border-box;
+}
+html, body {
+    height: 100vh;
+}
+body {
+    font-family: Oxygen;
+    background: #ffffff;
+    color: #5A5C5E;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container {
+    max-width: 1440px;
+    display: flex;
+    flex-wrap: wrap;
+ }
+ .logo {
+    flex: 50%;
+ }
+ .astro-image {
+    width: 100%;
+    padding-right: 50px;
+  }
+ .indisponivel {
+    width: 100%;
+    flex: 45%;
+    background-color: white;
+    padding: 30px 45px;
+    align-self: center;
+ }
+
+ h2 {
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 2.2rem;
+    line-height: 2.9rem;
+}
+p {
+    font-family: Oxygen;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 1.1rem;
+    line-height: 1.4rem;
+    margin: 24px 0 30px 0;
+}
+
+button {
+    border: none;
+    color: white;
+    padding: 15px 40px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    cursor: pointer;
+    background: #23A4CE;
+    border-radius: 4px;   
+}
+
+ @media screen and (max-width: 700px) {
+    .container {   
+        flex-direction: column;
+    }
+    button {
+        width: 100%;
+    }
+  }
+
+  @media (min-width: 1120px) {
+    .container {
+        width: 100vw;
+        height: 768px;
+        max-width: 1440px;
+        max-height: 768px;
+     }
+    
+     .logo img {     
+        width: 100%;
+        padding-left: 57px;
+        padding-bottom: 52px;
+        padding-right: 36px;
+
+    }
+ 
+    .indisponivel {
+       padding: 15px 120px 25px 69px;
+    }
+ 
+    h2 {
+        font-size: 3.6rem;
+        line-height: 3.61rem;      
+     }
+  
+     p {
+        font-size: 1.26rem;
+        line-height: 2rem;
+     }
+ }
+ 
+
+
+
+ 
+
