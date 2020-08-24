@@ -21,9 +21,8 @@ body {
   justify-content: center;  
 }
 
-#container {
+.container {
   width: 90vw;
-
 }
 
 .tomada-img {
@@ -86,7 +85,7 @@ button {
   :root {
       font-size: 55%;
   }
-  #container {
+  .container {
       width: 90vw;
       max-width: 768px;
   }
@@ -97,7 +96,7 @@ button {
 }
 
 @media (min-width: 1120px) {
-  #container {
+  .container {
    width: 100vw;
    height: 768px;
    max-width: 1440px;
@@ -105,13 +104,13 @@ button {
 
 
   }
-  .logo-container {
+  .logo {
    margin: 0 auto;
    position: absolute;
    right: 525px;
   }
 
-  .logo-container img {        
+  .logo img {        
       width: 100%;
       margin: 0 auto;
   }
