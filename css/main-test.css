@@ -30,20 +30,17 @@ body {
  .indisponivel {
     width: 100%;
     flex: 45%;
-    background-color: white;
     padding: 30px 45px;
     align-self: center;
  }
 
  h2 {
-    font-family: Oxygen;
     font-style: normal;
     font-weight: normal;
     font-size: 2.2rem;
     line-height: 2.9rem;
 }
 p {
-    font-family: Oxygen;
     font-style: normal;
     font-weight: normal;
     font-size: 1.1rem;

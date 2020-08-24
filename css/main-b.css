@@ -13,6 +13,7 @@ html, body {
 }
 
 body {
+  font-family: Oxygen;
   background: #ffffff;
   color: #5A5C5E;
   display: flex;
@@ -39,14 +40,12 @@ body {
 } 
 
 h2 {
-  font-family: Oxygen;
   font-style: normal;
   font-weight: normal;
   font-size: 5rem;
   line-height: 6rem;
 }
 p {
-  font-family: Oxygen;
   font-style: normal;
   font-weight: normal;
   font-size: 2.4rem;
