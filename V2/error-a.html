@@ -10,16 +10,20 @@
     <link href="https://fonts.googleapis.com/css2?family=Oxygen:wght@400;700&amp;display=swap" rel="stylesheet">
 </head>
 <body>
-    <div class="container"> 
-        <div class="logo">
-            <img class="astro-img" src="img/astronault.png" alt="Astronauta">
+    <section class="caixa">
+        <div class="container-fluid"> 
+            <div class="row justify-content-around">
+                <div class="col-md-6 logo">
+                    <img class="img-fluid astro-img" src="img/astronault.png" alt="Astronauta" width="663">
+                </div>
+                <div class="col-md-5 main">
+                    <h2>Ops!</h2>
+                    <p>Nosso sistema está temporiariamente indisponível. 
+                    Aguarde um momento e tente atualizar a página.</p>
+                    <button onClick="window.location.reload()">Atualizar</button>
+                </div>
+            </div>
         </div>
-        <div class="main">
-            <h2>Ops!</h2>
-            <p>Nosso sistema está temporiariamente indisponível. 
-                Aguarde um momento e tente atualizar a página.</p>
-                <button onClick="window.location.reload()">Atualizar</button>
-        </div>
-    </div>
+    </section>
 </body>
 </html>
