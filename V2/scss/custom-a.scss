@@ -2,7 +2,7 @@
 
 $color: #5A5C5E;
 $bg-color: #ffffff;
-$font-family: Oxygen;
+$font-family: "Oxygen";
 
 body {
     height: 100vh;
@@ -11,7 +11,7 @@ body {
     justify-content: center;
 }
 
-.caixa {
+#caixa {
     font-family: $font-family;
     background: $bg-color;
     color: $color;
@@ -20,32 +20,31 @@ body {
 .main {
     padding: 15px;
     align-self: center;
+    h2 {
+        font-weight: normal;
+        font-size: 2.2rem;
+        line-height: 2.9rem;
+    }
+    p {
+        font-size: 1.1rem;
+        line-height: 1.5rem;
+        margin: 24px 0 33px 0;
+    }
+    button {
+        border: none;
+        color: white;
+        padding: 12px 40px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 16px;
+        cursor: pointer;
+        background: #23A4CE;
+        border-radius: 4px;
+    }
 }
 
-h2 {
-    font-weight: normal;
-    font-size: 2.2rem;
-    line-height: 2.9rem;
-}
 
-p {
-    font-size: 1.1rem;
-    line-height: 1.5rem;
-    margin: 24px 0 33px 0;
-}
-
-button {
-    border: none;
-    color: white;
-    padding: 12px 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    background: #23A4CE;
-    border-radius: 4px;
-}
 
 @media screen and (max-width: 767.98px) {
     button {
@@ -65,14 +64,15 @@ button {
     .main {
         padding: 65px 120px 0 0;
         margin-bottom: 80px;
+        h2 {
+            font-size: 3.6rem;
+            line-height: 3.6rem;
+        }
+        p {
+            font-size: 1.26rem;
+            line-height: 2rem;
+        }
     }
-    h2 {
-        font-size: 3.6rem;
-        line-height: 3.6rem;
-    }
-    p {
-        font-size: 1.26rem;
-        line-height: 2rem;
-    }
+
 }
 

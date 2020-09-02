@@ -9900,8 +9900,8 @@ body {
   justify-content: center;
 }
 
-.caixa {
-  font-family: Oxygen;
+#caixa {
+  font-family: "Oxygen";
   background: #ffffff;
   color: #5A5C5E;
 }
@@ -9910,20 +9910,17 @@ body {
   padding: 15px;
   align-self: center;
 }
-
-h2 {
+.main h2 {
   font-weight: normal;
   font-size: 2.2rem;
   line-height: 2.9rem;
 }
-
-p {
+.main p {
   font-size: 1.1rem;
   line-height: 1.5rem;
   margin: 24px 0 33px 0;
 }
-
-button {
+.main button {
   border: none;
   color: white;
   padding: 12px 40px;
@@ -9955,13 +9952,11 @@ button {
     padding: 65px 120px 0 0;
     margin-bottom: 80px;
   }
-
-  h2 {
+  .main h2 {
     font-size: 3.6rem;
     line-height: 3.6rem;
   }
-
-  p {
+  .main p {
     font-size: 1.26rem;
     line-height: 2rem;
   }
