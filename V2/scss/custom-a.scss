@@ -1,8 +1,6 @@
-@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-$color: #5A5C5E;
-$bg-color: #ffffff;
-$font-family: "Oxygen";
+@import "variables";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
 body {
     height: 100vh;
@@ -11,38 +9,20 @@ body {
     justify-content: center;
 }
 
-#caixa {
-    font-family: $font-family;
-    background: $bg-color;
-    color: $color;
-}
-
-.main {
-    padding: 15px;
-    align-self: center;
-    h2 {
-        font-weight: normal;
-        font-size: 2.2rem;
-        line-height: 2.9rem;
-    }
-    p {
-        font-size: 1.1rem;
-        line-height: 1.5rem;
-        margin: 24px 0 33px 0;
-    }
-    button {
-        border: none;
-        color: white;
-        padding: 12px 40px;
-        text-align: center;
-        text-decoration: none;
-        display: inline-block;
-        font-size: 16px;
-        cursor: pointer;
-        background: #23A4CE;
-        border-radius: 4px;
-    }
-}
+// .main {
+//     button {
+//         border: none;
+//         color: white;
+//         padding: 12px 40px;
+//         text-align: center;
+//         text-decoration: none;
+//         display: inline-block;
+//         font-size: 16px;
+//         cursor: pointer;
+//         background: #23A4CE;
+//         border-radius: 4px;
+//     }
+// }
 
 
 
@@ -62,7 +42,7 @@ body {
     }
 
     .main {
-        padding: 65px 120px 0 0;
+        padding: 65px 120px 0 0 !important;
         margin-bottom: 80px;
         h2 {
             font-size: 3.6rem;
