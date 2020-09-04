@@ -9905,6 +9905,11 @@ body {
     width: 100%;
   }
 }
+@media screen and (max-width: 1209.98px) {
+  button {
+    padding: 7px 25px !important;
+  }
+}
 @media (min-width: 1210px) {
   .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1440px;

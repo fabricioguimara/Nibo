@@ -1,87 +1,39 @@
-* {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
+@import "variables";
+@import "../node_modules/bootstrap/scss/bootstrap.scss";
 
-body {
-    font-family: Oxygen;
-    background: #ffffff;
-    color: #5A5C5E;
-}
 
-#caixa {
-    display: flex;
-    flex-wrap: wrap;
-}
-
-.logo {
-    flex: 50%;
-}
-
-.tomada-img {
-    width: 100%;
-}
-
-.main {
-    flex: 35%;
-    padding: 15px;
-    align-self: center;
-}
-
-h2 {
-    font-weight: normal;
-    font-size: 2.2rem;
-    line-height: 2.9rem;
-}
-
-p {
-    font-size: 1.1rem;
-    line-height: 1.4rem;
-    margin: 24px 0 30px 0;
-}
-
-button {
-    border: none;
-    color: white;
-    padding: 15px 40px;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 16px;
-    cursor: pointer;
-    background: #23A4CE;
-    border-radius: 4px;
-}
-
-@media screen and (max-width: 700px) {
-    #caixa {
-        flex-direction: column;
-    }
+@media screen and (max-width: 767.98px) {
     button {
         width: 100%;
     }
 }
 
-@media (min-width: 1120px) {
-    #caixa {
+@media screen and (max-width: 1209.98px) {
+    button {
+        padding: 7px 25px !important;
+    }
+}
+
+
+@media (min-width: 1210px) {
+    .container-fluid {
         max-width: 1440px;
         max-height: 768px;
     }
-    .logo img {
-        width: 102%;
-    }
+
     .main {
-        margin-right: 5rem;
-        padding-left: 2.83rem;
-        padding-bottom: 1.9rem;
-    }
-    h2 {
-        font-size: 3.6rem;
-        line-height: 3.6rem;
-    }
-    p {
-        font-size: 1.26rem;
-        line-height: 2rem;
+        padding: 65px 120px 0 0 !important;
+        margin-left: 8px;
+        margin-bottom: 80px;
+        h2 {
+            font-size: 3.6rem;
+            line-height: 3.6rem;
+        }
+        p {
+            // letter-spacing: 0.1px;
+            font-size: 1.26rem;
+            line-height: 2rem;
+        }
     }
 }
+
