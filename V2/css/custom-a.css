@@ -9920,15 +9920,15 @@ body {
     margin-bottom: 80px;
   }
 
-  .main {
+  .main-text {
     padding: 65px 120px 0 0 !important;
     margin-bottom: 80px;
   }
-  .main h2 {
+  .main-text h2 {
     font-size: 3.6rem;
     line-height: 3.6rem;
   }
-  .main p {
+  .main-text p {
     font-size: 1.26rem;
     line-height: 2rem;
   }
