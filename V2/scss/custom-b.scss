@@ -5,9 +5,13 @@
     button {
         width: 100%;
     }
+
 }
 
-@media screen and (max-width: 1209.98px) {
+@media screen and (min-width: 768px) and (max-width: 1209.98px) {
+    .main {
+        overflow: hidden;
+    }
     button {
         padding: 7px 25px !important;
     }
@@ -15,6 +19,9 @@
 
 
 @media (min-width: 1210px) {
+    .main {
+        overflow: hidden;
+    }
     .container-fluid {
         max-width: 1440px;
         max-height: 768px;

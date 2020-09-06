@@ -9893,7 +9893,7 @@ h3 {
     border-color: #dee2e6;
   }
 }
-body {
+.main {
   height: 100vh;
   display: flex;
   align-items: center;
@@ -9911,6 +9911,10 @@ body {
   }
 }
 @media (min-width: 1210px) {
+  .main {
+    overflow: hidden;
+  }
+
   .container-fluid, .container-sm, .container-md, .container-lg, .container-xl {
     max-width: 1440px;
     max-height: 768px;
@@ -9921,7 +9925,7 @@ body {
   }
 
   .main-text {
-    padding: 65px 120px 0 0 !important;
+    padding: 70px 120px 0 0 !important;
     margin-bottom: 80px;
   }
   .main-text h2 {
